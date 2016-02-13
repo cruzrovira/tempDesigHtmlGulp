@@ -5,7 +5,7 @@ utilizando gulp como herramenta de ayuda para la realizacion de procesos
 
 para poder cambiar estos elmentos puede configurar el archivo gulpfile , tenga en cuneta que la carpeta src es antes de ser compilada y que la carpeta build es la carpeta compilada , ademas sea agregado un servidor que se ejecuta en la direccion http://localhost:8080
 
-
+```
 var gulp = require('gulp'),
     stylus = require('gulp-stylus'), // stylus a css
     autoprefixer = require('gulp-autoprefixer'), // prefix css
@@ -77,3 +77,4 @@ gulp.task('watch',function(){
 });
 
 gulp.task('default',['server','stylus','js','img','watch']);
+```
